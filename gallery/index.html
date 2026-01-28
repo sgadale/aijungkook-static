@@ -4,24 +4,27 @@
 <head>
     
     <meta charset="UTF-8">
-    <title>BTS Photo Gallery | AIJungkook</title>
+    <title>BTS Gallery — AIJungkook</title>
+
+    <meta name="description"
+          content="AIJungkook — BTS fan platform with member profiles, news, events and gallery for ARMY worldwide.">
+
+    
+    <link rel="stylesheet" href="/static/css/style.css">
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QL6BHVJ69E"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-QL6BHVJ69E');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QL6BHVJ69E');
     </script>
-    <link rel="stylesheet" href="/static/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="AIJungkook — BTS fan platform with member profiles, news, events and exclusive gallery for ARMY worldwide.">
 
 </head>
 <body>
 
-<header class="site-header">
+<header class="site-title">
     <h1>AIJungkook</h1>
     <nav class="main-nav">
         <a href="/">Home</a>
@@ -33,28 +36,24 @@
 
 </header>
 
-<main class="content">
+<main class="container">
     
-BTS Photo Gallery | AIJungkook
+<section class="section">
+  <h2>Gallery</h2>
 
-
-<div class="gallery-grid">
-
+  <div class="card-grid gallery-grid">
     
-        <div class="gallery-item">
-            <img src="http://127.0.0.1:8000/admin/gallery/gallery/add/" alt="Jungkook Concert">
-            <h4>Jungkook Concert</h4>
-            
-        </div>
+      <div class="card">
+        <img src="http://127.0.0.1:8000/admin/gallery/gallery/add/" alt="Jungkook Concert">
+        <div class="card-title">Jungkook Concert</div>
+      </div>
     
-
-</div>
-
-
+  </div>
+</section>
 
 </main>
 
-<footer class="site-footer">
+<footer>
     <p>© AIJungkook.com — BTS Fan Project</p>
 </footer>
 
